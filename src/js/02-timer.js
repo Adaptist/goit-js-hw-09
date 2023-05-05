@@ -59,7 +59,6 @@ function updateTime() {
 
     if (gap < 0) {
         clearInterval(interval);
-        startBtn.disabled = false;
         return;
     }
 
